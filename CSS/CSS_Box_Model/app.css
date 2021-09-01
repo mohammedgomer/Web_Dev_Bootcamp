@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+
+h1 {
+  background-color: pink;
+  width: 200px;
+  padding: 30px 30px 30px 30px;
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #b7b7a4;
+}
+
+span {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#one {
+background-color: #fae1dd;
+border-width: 5px;
+border-color: black;
+border-style: solid;
+box-sizing: border-box;
+margin-left: 50px;
+margin-bottom: 100px;
+}
+
+#two {
+background-color: #a5a58d;
+border-color: #e63946;
+border-width: 3px;
+border-style: dashed;
+border-left-width: 8px;
+box-sizing: border-box;
+padding-right: 50px;
+margin: 200px;
+
+}
+
+#three {
+background-color: #f1faee;
+border: 5px solid black;
+border-left-style: dotted;
+box-sizing: border-box;
+border-radius: 1px;
+}
+
+button {
+  padding: 5px;
+}
