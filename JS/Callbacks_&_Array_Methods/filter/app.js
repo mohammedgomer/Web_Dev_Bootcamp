@@ -9,33 +9,37 @@
 
 
 
-const movies = [
-  {
-    title: 'Goodfellas',
-    score: 98
-  },
-  {
-    title: 'Friday',
-    score: 90
-  },
-  {
-    title: 'Snakes On A Plane',
-    score: 60
-  },
-  {
-    title: 'Batman Returns',
-    score: 88
-  },
-  {
-    title: 'Parasite',
-    score: 97
-  },
-  {
-    title: 'Assasins Creed',
-    score: 55
-  }
-]
+// const movies = [
+//   {
+//     title: 'Goodfellas',
+//     score: 98
+//   },
+//   {
+//     title: 'Friday',
+//     score: 90
+//   },
+//   {
+//     title: 'Snakes On A Plane',
+//     score: 60
+//   },
+//   {
+//     title: 'Batman Returns',
+//     score: 88
+//   },
+//   {
+//     title: 'Parasite',
+//     score: 97
+//   },
+//   {
+//     title: 'Assasins Creed',
+//     score: 55
+//   }
+// ]
 
-const goodMovies = movies.filter(m => m.score > 80);
-const badMovies = movies.filter(m => m.score < 70);
+// const goodMovies = movies.filter(m => m.score > 80)
+// // const goodTitles = goodMovies.map(m => m.title);
+// // Another way of doing the same thing but all in one
+// movies.filter(m => m.score > 80).map(m => m.title);
+// const badMovies = movies.filter(m => m.score < 70);
+
 
