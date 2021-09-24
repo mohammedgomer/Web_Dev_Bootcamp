@@ -25,29 +25,37 @@
 // const add = (a, b) => a + b
 
 
-const movies = [
-  {
-    title: 'Goodfellas',
-    score: 98
-  },
-  {
-    title: 'Friday',
-    score: 90
-  },
-  {
-    title: 'Snakes On A Plane',
-    score: 60
-  },
-  {
-    title: 'Batman Returns',
-    score: 88
+// const movies = [
+//   {
+//     title: 'Goodfellas',
+//     score: 98
+//   },
+//   {
+//     title: 'Friday',
+//     score: 90
+//   },
+//   {
+//     title: 'Snakes On A Plane',
+//     score: 60
+//   },
+//   {
+//     title: 'Batman Returns',
+//     score: 88
+//   }
+// ]
+
+// // const newMovies = movies.map(function (movie) {
+// //   return `${movie.title} - ${movie.score / 10}`
+// // })
+
+// const newMovies = movies.map((movie) =>
+//   `${movie.title} - ${movie.score / 10}`
+// )
+
+const person = {
+  firstName: 'John',
+  lastName: 'Mortensen',
+  fullName: () => {
+    return `${this.firstName} ${this.lastName}`
   }
-]
-
-// const newMovies = movies.map(function (movie) {
-//   return `${movie.title} - ${movie.score / 10}`
-// })
-
-const newMovies = movies.map((movie) =>
-  `${movie.title} - ${movie.score / 10}`
-)
+}

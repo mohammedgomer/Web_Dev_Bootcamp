@@ -7,26 +7,37 @@ exams.some(score => score >= 75);
 const movies = [
   {
     title: 'Goodfellas',
-    score: 98
+    score: 98,
+    year: 1985
   },
   {
     title: 'Friday',
-    score: 90
+    score: 90,
+    year: 1997
   },
   {
     title: 'Snakes On A Plane',
-    score: 60
+    score: 60,
+    year: 2006
   },
   {
     title: 'Batman Returns',
-    score: 88
+    score: 88,
+    year: 2001
   },
   {
     title: 'Parasite',
-    score: 97
+    score: 97,
+    year: 2020
   },
   {
     title: 'Assasins Creed',
-    score: 55
+    score: 55,
+    year: 2015
   }
 ]
+
+
+
+const newMovies = movies.some(movie => movie.year > 2015);
+
