@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #23424A;
+  color: #fff;
+  width: 100vw;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.intro-content {
+  width: 50%;
+}
+.intro-content h1 {
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 900;
+  padding-top: 2em;
+}
+
+.intro-content p {
+  font-family: 'Roboto';
+  font-size: 21px;
+  color: #dde2e3;
+  padding-top: 1em;
+}
+
+.learn-button {
+  padding-top: 3em;
+}
+.learn-button button {
+  background-color: #38CFD9;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 21px;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.6rem;
+  color: #23424A;
+}
