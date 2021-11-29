@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #23424A;
+  color: #fff;
+  width: 80%;
+  /* When making the screen size bigger, it will stop growing - because it cannot get bigger than 750px.  */
+
+  margin: 0 auto;
+
+  /* height: 300px; */
+
+  padding: 5em;
+
+}
